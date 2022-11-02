@@ -1,0 +1,17 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/sharedsecrets",
+    "prod_uri": "mysql://u5ab5bqyh1xdm9my:ZzP0jSTyzWprsK7dY0ol@bxtyylaqneojtt0onf7j-mysql.services.clever-cloud.com:3306/bxtyylaqneojtt0onf7j",
+    "fb_url": "https://facebook.com/sharedsecrets",
+    "tw_url": "https://twitter.com/sharedsecrets",
+    "gh_url": "https://github.com/aayush158/shared-secrets-blog",
+    "blog_name": "SharedSecrets",
+    "about_text": "Hello, My name is Ayush Kumar Shukla and i created this blog application using flask. Hope it is upto yours expectation.",
+    "no_of_posts": 2,
+    "login_image": "login-bg.jpg",
+    "admin_user": "sharedsecrets",
+    "admin_password": "yesbro"
+  }
+}
