@@ -133,4 +133,4 @@ def post_route(post_slug):
     return render_template('post.html', params=params, post=post)
 
 
-app.run(debug=True, port=33507)
+app.run(debug=True)
