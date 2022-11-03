@@ -9,7 +9,7 @@ app = Flask(__name__)
 with open('config.json', 'r') as c:
     params = json.load(c)["params"]
 
-local_server=False
+#local_server=True
 
 app.secret_key = 'super-secret-key'
 #if(local_server):app.config["SQLALCHEMY_DATABASE_URI"] = params['local_uri']else:
