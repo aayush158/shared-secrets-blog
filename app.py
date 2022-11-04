@@ -133,4 +133,7 @@ def post_route(post_slug):
     return render_template('post.html', params=params, post=post)
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
+
+#app.run(debug=True)
